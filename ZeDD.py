@@ -95,7 +95,7 @@ def masuk():
     print ("[2] Login With Access Token")
     print ("[0] Back")
     print
-    msuk = raw_input("⌯⌯⌯⌯⌯⋙")
+    msuk = raw_input('⌯⌯⌯⌯⌯⋙')
     if msuk == '':
         print ("[!] Fill in Correctly")
         masuk()
