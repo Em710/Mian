@@ -76,6 +76,32 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 os.system("clear")
+print """ \033[1;94m
+ 
+                  `.-://////:-.`
+              .:+o+:-..````..-:+o+:.
+           `:o+-`                `:+o:`
+         `/o:`                      `:o/`
+        -s/`  .-..`            `..--` `/s-
+       /o.   `:.`.-:----------:-.``:-   .o/
+      /o`    .:`    `              --    `o/
+     -s.     .:`                   --     .s-
+     o/     .:`                     --     +o
+    .s-     :.        \033[1;91mZeDD          `:`    -s`
+    .s.     :.                      `:`    .s.
+    .s-     --                      .:     -s.
+     o/     `-.                    `-.     /o
+     -s.     `--`                `.-`     .s-
+      /o` ----``..--..`    `...--.`      `o/
+       /o. `----`  `-.      `-.         .o/
+        -o:  -.......        ..       `:o-
+         `:o:``....--        ..     `:o:`
+           `:+/-`  `-        ..  `-/+:`
+              `-/+///..````..://+/-`
+                  `.-::////::-.` \033[91;1m
+ 
+                \033[90;1mLife Of Programmer\033[91;1m
+             Powered by:\033[97m Mr. ZeDD """
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mZeDD
@@ -92,7 +118,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username
+            print "Logged in Successfully As " + username
             loop = 'false'
         else:
             print "Wrong Password"
@@ -109,12 +135,12 @@ def masuk():
     print ("[2] Login With Access Token")
     print ("[0] Back")
     print
-    msuk = raw_input('Enter Text Here')
+    msuk = raw_input('Enter Text Here ')
     if msuk == '':
         print ("[!] Fill in Correctly")
         masuk()
     elif msuk == '1':
-        login()
+        tokenz()
     elif msuk == '2':
         tokenz()
     elif msuk == '0':
