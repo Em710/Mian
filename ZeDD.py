@@ -100,6 +100,8 @@ while (loop == 'true'):
     else:
         print "Wrong Username"
         os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+
+
 def masuk():
     os.system('clear')
     print logo
@@ -107,7 +109,7 @@ def masuk():
     print ("[2] Login With Access Token")
     print ("[0] Back")
     print
-    msuk = raw_input("💦💫👉🏼")
+    msuk = raw_input('💦💫👉🏼')
     if msuk == '':
         print ("[!] Fill in Correctly")
         masuk()
