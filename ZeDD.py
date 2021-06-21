@@ -36,20 +36,32 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(00000.1)
 ##### LOGO #####
-logo = """
- _     _          ___         _
- | \   / |       |  __ \     | |
- | \   / |_ __   | |  | |    | |
- | |\ /| | '_|   | |  | |    | |
- | |   | | |     | |__| | |__| |
- |_|   |_|_|     |_____/  \___/
+logo = """ \033[1;94m
  
-\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
-\033[1;91m======================================="""
+                  `.-://////:-.`
+              .:+o+:-..````..-:+o+:.
+           `:o+-`                `:+o:`
+         `/o:`                      `:o/`
+        -s/`  .-..`            `..--` `/s-
+       /o.   `:.`.-:----------:-.``:-   .o/
+      /o`    .:`    `              --    `o/
+     -s.     .:`                   --     .s-
+     o/     .:`                     --     +o
+    .s-     :.        \033[1;91mZeDD          `:`    -s`
+    .s.     :.                      `:`    .s.
+    .s-     --                      .:     -s.
+     o/     `-.                    `-.     /o
+     -s.     `--`                `.-`     .s-
+      /o` ----``..--..`    `...--.`      `o/
+       /o. `----`  `-.      `-.         .o/
+        -o:  -.......        ..       `:o-
+         `:o:``....--        ..     `:o:`
+           `:+/-`  `-        ..  `-/+:`
+              `-/+///..````..://+/-`
+                  `.-::////::-.` \033[91;1m
+ 
+                \033[90;1mLife Of Programmer\033[91;1m
+             Powered by:\033[97m ZeeShawn  """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -66,14 +78,14 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
+\033[1;96mAuthor  \033[1;93m: \033[1;92mZeDD
+\033[1;96mYouTube \033[1;93m: \033[1;92mZeeShawn
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/Em710/Mian
+\033[1;96mFacebook\033[1;93m: \033[1;92mhttps://www.facebook.com/Ohii.Jutt
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "DJDJDJ"
-CorrectPassword = "DJDJDJ"
+CorrectUsername = "Zee"
+CorrectPassword = "Zee"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
@@ -130,6 +142,8 @@ def tokenz():
         print '\x1b[1;91m[!] Token Wrong !'
         time.sleep(1.7)
         masuk()
+
+
 def menu():
 	os.system('clear')
 	try:
@@ -380,4 +394,4 @@ def pilih_super():
 	menu()
 if __name__ == '__main__':
 	login()
- 
+        masuk()
